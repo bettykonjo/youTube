@@ -95,3 +95,32 @@
 // const arrowsums =(a,b) =>a+b
 // console.log(arrowsums(65,2))
 // const addfive  =sum => sum + 5
+
+// scope 
+// // block scope
+// if (true){
+//     const myName = 'betelihem'
+//     console.log(myName) // betelihem
+// }
+// console.log(myName) //errer
+//  function testFun(){
+//      const myName = 'batman'
+//      console.log(myName)
+//  }
+//  testFun()
+
+ // global 
+//  const myName = 'supperMan'
+// const myNum = 100
+// if (true){
+//     const myName = 'betelihem'
+//     console.log(myName) // betelihem
+// console.log(myNum) //100
+// }
+// console.log(myName) //errer
+//  function testFun(){
+//      const myName = 'batman'
+//      console.log(myName)
+// console.log(myNum) //100
+//  }
+//  testFun()
